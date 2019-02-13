@@ -38,7 +38,8 @@
 		<!-- Oracle JDBC driver -->
 		<dependency>
 		    <groupId>com.oracle</groupId>
-		    <artifactId>ojdbc7</artifactId>		    
+		    <artifactId>ojdbc7</artifactId>
+			<scope>compile</scope>
 		</dependency>
 
 		<dependency>
