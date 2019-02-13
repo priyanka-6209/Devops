@@ -38,8 +38,7 @@
 		<!-- Oracle JDBC driver -->
 		<dependency>
 		    <groupId>com.oracle</groupId>
-		    <artifactId>ojdbc7</artifactId>
-		    <version>12.1.0</version>
+		    <artifactId>ojdbc7</artifactId>		    
 		</dependency>
 
 		<dependency>
