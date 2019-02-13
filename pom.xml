@@ -35,12 +35,17 @@
 		    </exclusions>
 		</dependency>
 
-		<!-- Oracle JDBC driver -->
 		<dependency>
+		    <groupId>com.oracle</groupId>
+		    <artifactId>ojdbc7</artifactId>
+		    <version>12.1.0.1</version>
+		</dependency>
+		<!-- Oracle JDBC driver -->
+		<!--<dependency>
 		    <groupId>com.oracle</groupId>
 		    <artifactId>ojdbc14</artifactId>
 			<version>10.2.0.3.0</version>			
-		</dependency>
+		</dependency> -->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
